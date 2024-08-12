@@ -1,0 +1,202 @@
+.tbl1 {
+    /* margin: 20px auto; */
+    width: 70%;
+    border-collapse: collapse;
+    font-family:Arial;
+}
+
+.tbl1 table {
+    width: 100%;
+    border: 1px solid #ccc;
+    font-size: small;
+
+}
+
+/* .tbl1 th, .tbl1 td {
+    padding: 5px 13px;
+    text-align: left;
+    border: none;
+} */
+.data{
+    padding: 10px 30px;
+    text-align: left;
+    border: none; 
+    white-space: nowrap;
+}
+.option {
+    color: red;
+    background-color: #ccc;
+    padding: 5px 20px;
+}
+.delete{
+    padding: 5px 12px;
+}
+.tbl1 thead {
+    background-color: #ccc;
+}
+
+.tbl1 th {
+    background-color: #009879;
+    color: white;
+    /* text-transform: uppercase; */
+}
+
+.tbl1 tbody tr {
+    background-color: #ccc;
+    border-bottom: 1px solid #dddddd;
+}
+
+.tbl1 tbody tr:nth-of-type(even) {
+    background-color: #ccc;
+}
+
+.tbl1 tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.tbl1 tbody tr:hover {
+    background-color: #be9292;
+    border: 1px solid #e11313;
+    border-radius: 4px;
+
+}
+
+.tbl1 button {
+    padding: 8px 12px;
+    background-color: #07651d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 134%;
+}
+
+.new_item{
+    padding: 15px 15px;
+    background-color: #07651d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.new_btn_container{
+    justify-content: center;
+}
+.new_item:hover {
+    background-color: #120eda;
+}
+
+.tbl1 button:hover {
+    background-color: #120eda;
+}
+
+#option{
+    background-color: #e11313;
+}
+.topic{
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+.topics{
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color:#120eda;
+    background-color: #e0e0e0;
+    margin-bottom: 1%;
+    border-radius: 2px;
+    padding: 5px 5px;
+}
+
+/* ______________________form css______________________ */
+.form1 {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Style for the form title */
+.form1 .form_title {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Styles for the form elements */
+.form1 form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form1 .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form1 label {
+    width: 160px; /* Adjust this value to set a fixed width for labels */
+    margin-right: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form1 input[type="text"], .form1 input[type="number"], .form1 input[type="date"]{
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color: #555;
+    background-color: #fff;
+}
+
+.form1 button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #009879;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start; /* Align button to the start of the form */
+}
+
+.form1 button:hover {
+    background-color: #007d67;
+}
+
+.form1 input[type="text"]:focus {
+    border-color: #009879;
+    outline: none;
+}.err{
+    color: red;
+    font-size: 13px;
+    text-align:center;
+    margin-left: 29%;
+    line-height: 1.5;
+    margin-top: -7px;
+    margin-bottom: 7px;
+    max-width: fit-content;
+}
